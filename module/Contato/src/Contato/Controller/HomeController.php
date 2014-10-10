@@ -14,6 +14,15 @@ class HomeController extends AbstractActionController
         
         return new ViewModel();
     }
+    
+    /**
+     * action sobre
+     * @return \Zend\View\Model\ViewModel
+     */
+    public function sobreAction()
+    {
+        return new ViewModel();
+    }
 
 
 }
